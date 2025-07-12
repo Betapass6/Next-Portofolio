@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscodeignore
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
+*.log
+
+#package
+package-lock.json
+
+# Optional: ignore local images/assets if not needed in repo
+# public/assets/img/ 
