@@ -37,8 +37,5 @@ coverage/
 *.local
 *.log
 
-#package
-package-lock.json
-
 # Optional: ignore local images/assets if not needed in repo
 # public/assets/img/ 

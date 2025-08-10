@@ -1,8 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -14,15 +15,16 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <img
+            <Image
               src="/assets/img/avatar.png"
               alt="Betapass6 avatar"
-              width={256}
-              height={256}
+              width={128}
+              height={128}
               className="mx-auto mb-6 rounded-full border-4 border-primary-500 shadow-lg"
+              priority
             />
             <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-6xl">
-              Hi, I'm <span className="gradient-text">Betapass6</span>
+              Hi, I&apos;m <span className="gradient-text">Betapass6</span>
             </h1>
           </motion.div>
           <motion.p

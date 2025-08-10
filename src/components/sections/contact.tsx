@@ -44,7 +44,7 @@ export function Contact() {
             viewport={{ once: true }}
             className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-400"
           >
-            Ready to start a project or just want to chat? I'd love to hear from you.
+            Ready to start a project or just want to chat? I&apos;d love to hear from you.
           </motion.p>
         </div>
 
@@ -85,11 +85,11 @@ export function Contact() {
 
               <div>
                 <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-6">
-                  Let's Work Together
+                  Let&apos;s Work Together
                 </h3>
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  I'm always interested in new opportunities and exciting projects. 
-                  Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                  I&apos;m always interested in new opportunities and exciting projects. 
+                  Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
                 </p>
               </div>
             </motion.div>
